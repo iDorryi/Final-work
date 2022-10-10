@@ -7,7 +7,8 @@ void PrintArray(string[] StartArray)
     int l = StartArray.Length;
     for (int i = 0; i < l; i++)
     {
-        Console.Write($"{StartArray[i]}, ");
+        Console.WriteLine($"Введите первый элемент{StartArray[i]}",
+        StartArray[i] = Convert.ToInt32(Console.ReadLine());
     }
     Console.WriteLine();
 }
