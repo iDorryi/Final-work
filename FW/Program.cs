@@ -13,7 +13,7 @@ void PrintArray(string[] StartArray)
 }
 // 3. Создаем новый массив
 string[] FinalArray = new string[StartArray.Length];
-// 4. Создаем функцию для ввода нового массива, в котором длинна строк <= 3 символам
+// 4. Создаем функцию для ввода нового массива с заменой индекса на индекс старого, если длинна строк <= 3 символам
 void Result(string[] StartArray, string[] FinalArray)
 {
 int count = 0;
@@ -29,6 +29,7 @@ int count = 0;
 Result(StartArray, FinalArray);
 PrintArray(StartArray);
 PrintArray(FinalArray);
+// 5. Конец
 
  
 
